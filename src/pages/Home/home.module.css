@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.divContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.browseContainer {
+  width: 80%;
+  margin: 20px auto 0 auto;
+  padding: 0px 6px;
+  text-align: left;
+}
+
+.browse {
+  color: #8c8989;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.divBox {
+  width: 18%;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  overflow: hidden;
+  text-align: left;
+}
+.imgContainer {
+  height: 280px;
+  overflow: hidden;
+}
+.imgPoster {
+  width: 100%;
+}
+
+.movieInfo {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  margin-top: 5px;
+  color: rgb(8, 8, 8);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: -5px;
+  text-align: left;
+}
+
+.loading {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 100px;
+}

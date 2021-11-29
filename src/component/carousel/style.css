@@ -1,0 +1,28 @@
+.carousel-indicators [data-bs-target] {
+  width: 20px !important ;
+  height: 20px !important;
+  border-radius: 50% !important;
+}
+
+.heightCarousel {
+  height: 400px;
+  object-fit: cover;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-right: 22rem;
+}
+
+.mb-3 {
+  margin-top: -1rem;
+
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerButton {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
